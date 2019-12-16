@@ -11,7 +11,7 @@ Series of instructions to compile and run your code
 
 1. Download the software
 
-git clone https://github.com/pcdslab/GPU-SFFT.git
+git clone https://github.com/pcdslab/gpu-sfft.git
 
 2. Compile the code with the Makefile. Please set the library and include directories paths on the Makefile available for your particular machine
 
