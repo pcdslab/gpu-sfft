@@ -33,7 +33,10 @@ $ ./exec -q -k -Bcst -loops_loc -loops_thresh -loops_est -RLFC_cst -RLFC_loops
 |RLFC_loops|Number of loops to run the function to compute the restriction of largest frequency coefficients.|
 # Experiments
 
-All the experiments to test the GPU-SFFT software were performed on a Linux server with Ubuntu operating system version 16.04.5, 44 Intel Xeon Gold processors, clock speed 2.1 GHz, and 125 GB of RAM. The GPU in this server is a NVIDIA Titan Xp, with 30 SM, 128 cores/SM, maximum clock rate of 1.58 GHz, 12196 MB of  global memory, and CUDA version 10.1 with CUDA capability of 6.1.
+All the experiments to test the GPU-SFFT software were performed on a Linux server with Ubuntu operating system version 16.04.5, 44 Intel Xeon Gold processors, clock speed 2.1 GHz, and 125 GB of RAM. The GPU in this server is a NVIDIA Titan Xp, with 30 SM, 128 cores/SM, maximum clock rate of 1.58 GHz, 12196 MB of  global memory, L2 cache size of                             3145728 bytes, 65536 bytes of constant memory, 49152 bytes of shared memory per block, 65536 registers available per block, 
+a maximum number of 2048 threads per multiprocessor, a maximum number of 1024 threads per block, maximum dimension size of a thread block (x,y,z): (1024, 1024, 64), maximum dimension size of a grid size (x,y,z): (2147483647, 65535, 65535),
+ and CUDA version 10.1 with CUDA capability of 6.1.
+
 
 # Parameters for experiments
 k= 1000
